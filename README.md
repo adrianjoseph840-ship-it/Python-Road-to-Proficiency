@@ -182,3 +182,202 @@ information, different data types, and updated values.
 ## Status
 
 Completed
+
+
+
+# Lesson 03: Python Data Types, Type Conversion, and Type Checking
+
+## Overview
+
+This lesson explores the built-in data types available in
+Python and demonstrates how to identify and convert data
+between different types.
+
+## Learning Objectives
+
+- Understand Python's built-in data types.
+- Identify strings, integers, floats, and booleans.
+- Understand lists, tuples, sets, and dictionaries.
+- Learn about the None data type.
+- Use the type() function to identify data types.
+- Perform basic type conversion.
+
+## 1. String (str)
+
+Strings represent text enclosed in quotation marks.
+
+Example:
+
+```python
+name = "Adrian"
+course = "BS Computer Science"
+```
+
+## 2. Integer (int)
+
+Integers represent whole numbers without decimal points.
+
+Example:
+
+```python
+age = 21
+year_level = 3
+```
+
+## 3. Float (float)
+
+Floats represent numbers containing decimal points.
+
+Example:
+
+```python
+grade = 95.5
+height = 1.70
+```
+
+## 4. Boolean (bool)
+
+Boolean values represent logical states.
+
+Python has two Boolean values:
+
+- True
+- False
+
+Example:
+
+```python
+is_student = True
+is_graduated = False
+```
+
+## 5. List
+
+A list stores multiple values in an ordered collection.
+Lists are mutable, meaning their contents can be changed.
+
+Example:
+
+```python
+subjects = ["Programming", "Mathematics", "Science"]
+```
+
+## 6. Tuple
+
+A tuple stores multiple values in an ordered collection.
+Unlike lists, tuples are immutable.
+
+Example:
+
+```python
+coordinates = (10, 20)
+```
+
+## 7. Set
+
+A set stores unique elements and does not maintain
+a guaranteed ordering.
+
+Example:
+
+```python
+numbers = {1, 2, 3, 4, 4, 5}
+```
+
+Duplicate values are automatically removed.
+
+## 8. Dictionary
+
+A dictionary stores information using key-value pairs.
+
+Example:
+
+```python
+student = {
+    "name": "Adrian",
+    "course": "BS Computer Science",
+    "year": 3
+}
+```
+
+## 9. None
+
+None represents the absence of a value.
+
+Example:
+
+```python
+middle_name = None
+```
+
+## 10. Type Checking
+
+Python provides the type() function to identify
+the data type of a value.
+
+Example:
+
+```python
+age = 21
+print(type(age))
+```
+
+Output:
+
+```text
+<class 'int'>
+```
+
+## 11. Type Conversion
+
+Type conversion changes a value from one data type
+to another.
+
+Common conversion functions:
+
+| Function | Purpose |
+|---|---|
+| int() | Converts to integer |
+| float() | Converts to float |
+| str() | Converts to string |
+| bool() | Converts to boolean |
+| list() | Converts to list |
+| tuple() | Converts to tuple |
+| set() | Converts to set |
+
+Example:
+
+```python
+number = "100"
+
+integer_number = int(number)
+float_number = float(number)
+
+print(integer_number)
+print(float_number)
+```
+
+Output:
+
+```text
+100
+100.0
+```
+
+## Key Takeaways
+
+- Python supports several built-in data types.
+- Strings store text.
+- Integers and floats store numerical values.
+- Booleans represent True or False.
+- Lists, tuples, sets, and dictionaries store collections.
+- The type() function identifies data types.
+- Type conversion changes values between compatible types.
+
+## Project Files
+
+- main.py - Python implementation and demonstrations.
+
+## Status
+
+Completed
