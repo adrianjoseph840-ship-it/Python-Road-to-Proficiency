@@ -537,3 +537,172 @@ before performing division.
 
 Completed
 
+
+# Lesson 05: Python Operators and Expressions
+
+## Overview
+
+This lesson explores the different operators available
+in Python. Operators are symbols or keywords used to
+perform operations on variables and values.
+
+## Learning Objectives
+
+- Understand arithmetic operators.
+- Use assignment operators.
+- Perform comparisons using comparison operators.
+- Understand logical operators.
+- Learn operator precedence.
+- Apply operators in practical programs.
+
+## 1. Arithmetic Operators
+
+Arithmetic operators perform mathematical calculations.
+
+| Operator | Description | Example |
+|---|---|---|
+| + | Addition | 10 + 5 = 15 |
+| - | Subtraction | 10 - 5 = 5 |
+| * | Multiplication | 10 * 5 = 50 |
+| / | Division | 10 / 5 = 2.0 |
+| // | Floor Division | 10 // 3 = 3 |
+| % | Modulus | 10 % 3 = 1 |
+| ** | Exponentiation | 2 ** 3 = 8 |
+
+## 2. Assignment Operators
+
+Assignment operators assign or update variable values.
+
+| Operator | Example | Equivalent |
+|---|---|---|
+| = | x = 10 | Assign 10 |
+| += | x += 5 | x = x + 5 |
+| -= | x -= 5 | x = x - 5 |
+| *= | x *= 2 | x = x * 2 |
+| /= | x /= 2 | x = x / 2 |
+| //= | x //= 2 | x = x // 2 |
+| %= | x %= 3 | x = x % 3 |
+| **= | x **= 2 | x = x ** 2 |
+
+## 3. Comparison Operators
+
+Comparison operators compare two values and return
+a Boolean result: True or False.
+
+| Operator | Description |
+|---|---|
+| == | Equal to |
+| != | Not equal to |
+| > | Greater than |
+| < | Less than |
+| >= | Greater than or equal to |
+| <= | Less than or equal to |
+
+Example:
+
+```python
+age = 21
+
+print(age >= 18)
+```
+
+Output:
+
+```text
+True
+```
+
+## 4. Logical Operators
+
+Logical operators combine or reverse conditions.
+
+| Operator | Description |
+|---|---|
+| and | True when both conditions are true |
+| or | True when at least one condition is true |
+| not | Reverses a Boolean result |
+
+Example:
+
+```python
+age = 21
+has_valid_id = True
+
+print(age >= 18 and has_valid_id)
+```
+
+Output:
+
+```text
+True
+```
+
+## 5. Operator Precedence
+
+Operator precedence determines the order in which
+Python evaluates expressions.
+
+Example:
+
+```python
+result = 10 + 5 * 2
+
+print(result)
+```
+
+Output:
+
+```text
+20
+```
+
+Multiplication is evaluated before addition.
+
+Parentheses can change the evaluation order.
+
+```python
+result = (10 + 5) * 2
+
+print(result)
+```
+
+Output:
+
+```text
+30
+```
+
+## 6. Practical Applications
+
+This lesson includes three practical demonstrations:
+
+### Student Grade Calculation
+
+Calculates the average of three examination grades
+and checks whether the student passed.
+
+### Even or Odd Checker
+
+Uses the modulus operator to determine whether
+a number is even or odd.
+
+### Logical Condition Checking
+
+Combines multiple conditions using logical operators.
+
+## Key Takeaways
+
+- Arithmetic operators perform calculations.
+- Assignment operators update variable values.
+- Comparison operators return Boolean results.
+- Logical operators combine conditions.
+- Operator precedence determines evaluation order.
+- Operators are essential in programming logic.
+
+## Project Files
+
+- main.py - Demonstration of Python operators.
+
+## Status
+
+Completed
