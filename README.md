@@ -381,3 +381,159 @@ Output:
 ## Status
 
 Completed
+
+
+# Lesson 04: Python User Input and Output
+
+## Overview
+
+This lesson introduces user input and output in Python.
+It demonstrates how programs receive information from
+users and display processed results.
+
+## Learning Objectives
+
+- Understand the input() function.
+- Understand the print() function.
+- Receive information from users.
+- Convert input values into numerical data types.
+- Use formatted strings (f-strings).
+- Build a simple interactive calculator.
+
+## 1. Output Using print()
+
+The print() function displays information in the terminal.
+
+Example:
+
+```python
+print("Hello, World!")
+```
+
+Output:
+
+```text
+Hello, World!
+```
+
+## 2. Receiving Input Using input()
+
+The input() function allows users to enter information.
+
+Example:
+
+```python
+name = input("Enter your name: ")
+print("Hello,", name)
+```
+
+The program waits for the user to enter a value.
+
+## 3. Understanding Input Data Types
+
+The input() function returns a string by default,
+even when the user enters a number.
+
+Example:
+
+```python
+age = input("Enter your age: ")
+
+print(type(age))
+```
+
+Output:
+
+```text
+<class 'str'>
+```
+
+## 4. Converting User Input
+
+Python provides conversion functions for transforming
+input values into other data types.
+
+Example:
+
+```python
+age = int(input("Enter your age: "))
+grade = float(input("Enter your grade: "))
+```
+
+Common conversion functions:
+
+| Function | Description |
+|---|---|
+| int() | Converts to integer |
+| float() | Converts to decimal number |
+| str() | Converts to string |
+| bool() | Converts to boolean |
+
+## 5. Formatted Strings (F-Strings)
+
+F-strings allow variables and expressions to be placed
+directly inside strings.
+
+Example:
+
+```python
+name = "Adrian"
+age = 21
+
+print(f"My name is {name}.")
+print(f"I am {age} years old.")
+```
+
+Output:
+
+```text
+My name is Adrian.
+I am 21 years old.
+```
+
+## 6. Basic Arithmetic with User Input
+
+Python can process numerical input using arithmetic
+operators.
+
+Example:
+
+```python
+first_number = float(input("Enter first number: "))
+second_number = float(input("Enter second number: "))
+
+total = first_number + second_number
+
+print(f"Total: {total}")
+```
+
+## 7. Simple Calculator
+
+The lesson also demonstrates a basic calculator
+that performs:
+
+- Addition
+- Subtraction
+- Multiplication
+- Division
+
+The program checks whether the second number is zero
+before performing division.
+
+## Key Takeaways
+
+- print() displays information.
+- input() receives information from users.
+- input() returns a string by default.
+- int() and float() convert numerical input.
+- F-strings format output using variables.
+- Python can process user input through calculations.
+
+## Project Files
+
+- main.py - Interactive Python input and output program.
+
+## Status
+
+Completed
+
