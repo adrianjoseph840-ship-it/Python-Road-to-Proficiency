@@ -706,3 +706,170 @@ Combines multiple conditions using logical operators.
 ## Status
 
 Completed
+
+
+
+# Lesson 06: Python Conditional Statements
+
+## Overview
+
+This lesson introduces conditional statements in Python.
+Conditional statements allow programs to make decisions
+based on whether certain conditions are true or false.
+
+## Learning Objectives
+
+- Understand conditional statements.
+- Use if statements.
+- Use if-else statements.
+- Apply elif statements.
+- Understand nested conditions.
+- Combine multiple conditions.
+- Use the ternary operator.
+- Build basic decision-making programs.
+
+## 1. If Statement
+
+An if statement executes a block of code when
+a specified condition is true.
+
+Example:
+
+```python
+age = 21
+
+if age >= 18:
+    print("You are an adult.")
+```
+
+## 2. If-Else Statement
+
+An if-else statement provides two possible execution
+paths depending on the condition.
+
+Example:
+
+```python
+age = 16
+
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
+```
+
+## 3. If-Elif-Else Statement
+
+The elif keyword allows a program to check
+multiple conditions.
+
+Example:
+
+```python
+grade = 88
+
+if grade >= 90:
+    print("Excellent")
+elif grade >= 85:
+    print("Very Good")
+elif grade >= 75:
+    print("Passed")
+else:
+    print("Failed")
+```
+
+## 4. Nested If Statements
+
+Nested if statements are conditional statements
+placed inside another conditional statement.
+
+Example:
+
+```python
+age = 21
+has_valid_id = True
+
+if age >= 18:
+    if has_valid_id:
+        print("Verification successful.")
+    else:
+        print("ID required.")
+else:
+    print("Not eligible.")
+```
+
+## 5. Multiple Conditions
+
+Logical operators can combine multiple conditions.
+
+Example:
+
+```python
+attendance = 90
+exam_score = 85
+
+if attendance >= 75 and exam_score >= 75:
+    print("Passed")
+else:
+    print("Failed")
+```
+
+## 6. Ternary Operator
+
+The ternary operator provides a shorter way to
+write simple if-else expressions.
+
+Example:
+
+```python
+age = 21
+
+status = "Adult" if age >= 18 else "Minor"
+
+print(status)
+```
+
+## 7. Practical Applications
+
+This lesson includes several decision-making programs:
+
+### Grade Classification System
+
+Classifies grades according to predefined ranges.
+
+### Voting Eligibility Checker
+
+Determines whether a person meets the minimum
+voting age requirement used in this demonstration.
+
+### Number Classifier
+
+Identifies whether a number is positive, negative,
+or zero.
+
+### Login Authentication Simulation
+
+Compares entered credentials with predefined
+values to demonstrate conditional logic.
+
+Note: The login example is educational only.
+Real authentication systems must not store passwords
+as plaintext.
+
+## Key Takeaways
+
+- Conditional statements control program execution.
+- if checks a condition.
+- else handles the alternative case.
+- elif checks additional conditions.
+- Nested conditions allow multiple levels of decisions.
+- Logical operators combine conditions.
+- Ternary operators simplify short conditional expressions.
+
+## Project Files
+
+- main.py - Demonstrations of Python conditional statements.
+
+## Status
+
+Completed
