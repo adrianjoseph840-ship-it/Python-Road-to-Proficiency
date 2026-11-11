@@ -86,3 +86,99 @@ I want to develop applications and software.
 ## Status
 
 Completed
+
+
+
+# Lesson 02: Variables and Data Storage
+
+## Overview
+
+This lesson introduces variables in Python and explains
+how they are used to store and manage information.
+
+## Learning Objectives
+
+- Understand Python variables.
+- Learn how to declare and assign variables.
+- Identify common Python data types.
+- Understand variable reassignment.
+- Display variable values using print().
+
+## What are Variables?
+
+Variables are named references used to store and access
+data in a Python program.
+
+Example:
+
+```python
+name = "Adrian"
+age = 21
+```
+
+In this example:
+
+- `name` stores a string.
+- `age` stores an integer.
+
+## Variable Naming Rules
+
+1. Variable names can contain letters, numbers, and underscores.
+2. Variable names cannot start with a number.
+3. Variable names are case-sensitive.
+4. Python keywords cannot be used as variable names.
+5. Use descriptive names for readability.
+
+## Common Python Data Types
+
+| Data Type | Description | Example |
+|---|---|---|
+| str | Text | "Python" |
+| int | Whole numbers | 21 |
+| float | Decimal numbers | 95.5 |
+| bool | True or False | True |
+
+## Variable Assignment
+
+Variables are assigned using the equals sign (`=`).
+
+Example:
+
+```python
+age = 21
+```
+
+## Variable Reassignment
+
+The value of a variable can be changed.
+
+Example:
+
+```python
+age = 21
+age = 22
+
+print(age)
+```
+
+Output:
+
+```text
+22
+```
+
+## Program Output
+
+The program displays personal information, academic
+information, different data types, and updated values.
+
+## Key Takeaways
+
+- Variables store and reference data.
+- Python supports different data types.
+- Variables can be reassigned.
+- Descriptive variable names improve readability.
+
+## Status
+
+Completed
